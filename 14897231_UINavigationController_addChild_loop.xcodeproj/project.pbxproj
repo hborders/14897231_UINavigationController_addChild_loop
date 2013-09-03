@@ -19,6 +19,8 @@
 		B85D530817D647F300F7C8CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85D52F017D647F300F7C8CA /* UIKit.framework */; };
 		B85D531017D647F300F7C8CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B85D530E17D647F300F7C8CA /* InfoPlist.strings */; };
 		B85D531217D647F300F7C8CA /* _4897231_UINavigationController_addChild_loopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85D531117D647F300F7C8CA /* _4897231_UINavigationController_addChild_loopTests.m */; };
+		B85D531D17D6482300F7C8CA /* HJBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85D531C17D6482300F7C8CA /* HJBTestViewController.m */; };
+		B8CFF70917D670EF006BBD07 /* HJBChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CFF70817D670EF006BBD07 /* HJBChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		B85D530D17D647F300F7C8CA /* 14897231_UINavigationController_addChild_loopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "14897231_UINavigationController_addChild_loopTests-Info.plist"; sourceTree = "<group>"; };
 		B85D530F17D647F300F7C8CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B85D531117D647F300F7C8CA /* _4897231_UINavigationController_addChild_loopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4897231_UINavigationController_addChild_loopTests.m; sourceTree = "<group>"; };
+		B85D531B17D6482300F7C8CA /* HJBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBTestViewController.h; sourceTree = "<group>"; };
+		B85D531C17D6482300F7C8CA /* HJBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBTestViewController.m; sourceTree = "<group>"; };
+		B8CFF70717D670EF006BBD07 /* HJBChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBChildViewController.h; sourceTree = "<group>"; };
+		B8CFF70817D670EF006BBD07 /* HJBChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				B85D52FC17D647F300F7C8CA /* HJBAppDelegate.m */,
 				B85D52FE17D647F300F7C8CA /* Images.xcassets */,
 				B85D52F317D647F300F7C8CA /* Supporting Files */,
+				B85D531B17D6482300F7C8CA /* HJBTestViewController.h */,
+				B85D531C17D6482300F7C8CA /* HJBTestViewController.m */,
+				B8CFF70717D670EF006BBD07 /* HJBChildViewController.h */,
+				B8CFF70817D670EF006BBD07 /* HJBChildViewController.m */,
 			);
 			path = 14897231_UINavigationController_addChild_loop;
 			sourceTree = "<group>";
@@ -242,6 +252,8 @@
 			files = (
 				B85D52F917D647F300F7C8CA /* main.m in Sources */,
 				B85D52FD17D647F300F7C8CA /* HJBAppDelegate.m in Sources */,
+				B85D531D17D6482300F7C8CA /* HJBTestViewController.m in Sources */,
+				B8CFF70917D670EF006BBD07 /* HJBChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "14897231_UINavigationController_addChild_loop/14897231_UINavigationController_addChild_loop-Prefix.pch";
 				INFOPLIST_FILE = "14897231_UINavigationController_addChild_loop/14897231_UINavigationController_addChild_loop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "14897231_UINavigationController_addChild_loop/14897231_UINavigationController_addChild_loop-Prefix.pch";
 				INFOPLIST_FILE = "14897231_UINavigationController_addChild_loop/14897231_UINavigationController_addChild_loop-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +452,7 @@
 				B85D531717D647F300F7C8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B85D531817D647F300F7C8CA /* Build configuration list for PBXNativeTarget "14897231_UINavigationController_addChild_loopTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +461,7 @@
 				B85D531A17D647F300F7C8CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
